@@ -187,12 +187,12 @@ const handleCodeChange = (newCode) => {
 
 ## Running the Project
 
-1. **Backend:**
+1. **Backend:**  
    ```sh
    npm install
    npm run dev
    ```
-2. **Frontend:**
+2. **Frontend:**  
    ```sh
    cd frontend
    npm install
