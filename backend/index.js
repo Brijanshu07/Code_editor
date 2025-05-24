@@ -39,7 +39,7 @@ setInterval(reloadWebsite, interval);
 
 const io = new Server(server, {
   cors: {
-    origin: process.env.URL,
+    origin: process.env.CORS_URL,
   },
 });
 
