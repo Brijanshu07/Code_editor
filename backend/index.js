@@ -39,7 +39,7 @@ setInterval(reloadWebsite, interval);
 
 const io = new Server(server, {
   cors: {
-    origin: "*",
+    origin: "https://code-editor-frontend-2.onrender.com/",
   },
 });
 
