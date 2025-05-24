@@ -12,7 +12,7 @@ import {
   X
 } from "lucide-react";
 
-const socket = io("http://localhost:5000/");
+const socket = io(`${import.meta.env.VITE_SERVER_URL}`);
 
 const backgroundAnimation = {
   hidden: { opacity: 0 },
